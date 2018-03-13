@@ -15,7 +15,6 @@ function distanceTravelledInFeet(startBlock, endBlock){
   return Math.abs(startBlock-endBlock)*264
 }
 
-
 function calculatesFarePrice(start, destination) {
   const distance = distanceTravelledInFeet(start, destination);
   if (distance < 400) {
